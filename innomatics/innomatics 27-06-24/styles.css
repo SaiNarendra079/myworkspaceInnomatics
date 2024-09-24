@@ -1,0 +1,54 @@
+body{
+  background-color: beige;
+}
+/*@media(min-width:600px){
+  body{
+    background-color: rgb(34, 211, 34);
+  }
+  h1{
+    font-size: 60px;
+  }
+  p{
+    font-size: 40px; 
+  }
+  span{
+    font-size: 40px;
+  }
+}*/
+.box{
+  border: 2px solid blueviolet;
+  margin: 10px;
+  height: 30px;
+  flex-grow: 1;
+  /*or we can all give here as transition: propert(background-color) time(1s) etc;*/
+  animation: move 2s linear infinite;
+  position: relative;
+}
+.box:hover{
+  transition: 1s;
+  background-color: blue;
+}
+@keyframes move{
+  0%{
+    left: 0;
+  }
+  100%{
+    left: 200px;
+  }
+}
+.boxes{
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width:500px){
+  .boxes{
+    display: flex;
+    flex-direction: column;
+  }
+  .box{
+    background-color: aqua;
+  }
+  body{
+    background-color: rgb(23, 178, 23);
+  }
+}

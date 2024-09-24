@@ -1,0 +1,24 @@
+form handling:
+1-controlled components
+2-uncontrolled components
+3-Multiple value
+4-third party library-"Formik"and react-hook-form"
+
+------------------------------------------------------
+controlled components
+          --react solely responsible to handle the form(what)
+          --state variable(how)[useState]
+          --signup:-username,password,email
+
+
+uncontrolled components
+         --dom handles form
+         --useRef
+         --do not have total control like simple details  form
+
+
+formik/react-hoook-form:
+   -difference manual handling
+
+   -scalabble
+   -efficiently

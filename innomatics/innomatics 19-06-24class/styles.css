@@ -1,0 +1,72 @@
+.parentDiv{
+  border: 2px solid blue;
+  background-color: lightblue;
+  height: 200vh;
+  margin: 20px;
+  /*position: relative; */
+}
+.childBox{
+  border: 2px solid;
+  height: 30px;
+  margin: 5px;
+}
+.childOne{
+  /*position: relative;
+  left: 20px;
+  top: 20px; */
+  background-color: yellowgreen;
+  /* position: absolute;
+  top: 20px;
+  right: 0; */
+  /* position: fixed;
+  right: 500px;
+  top: 0; */
+  position: sticky;
+  right: 0;
+  top: 30px;
+
+}
+.childTwo{
+  /*position: relative;
+  left: 20px;
+  top: 20px; */
+  background-color: rebeccapurple;
+}
+.formcontainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+.user{
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.password{
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.pimg{
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mail{
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.dob{
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}

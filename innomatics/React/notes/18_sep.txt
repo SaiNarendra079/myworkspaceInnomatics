@@ -1,0 +1,4 @@
+react dom is used to prevent unnecessary rendering of web pages
+
+
+Link and NavLink both are similar to each other , both act as anchor tag. but if we use Link we cannot find which component is active and which is not active but if we use NavLink we can know which componentis active

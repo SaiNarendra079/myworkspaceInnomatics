@@ -1,0 +1,58 @@
+important concepts in js
+1. Variables-let var and concepts
+2.DataTypes
+3. Array Methods
+4. Objects in Javascript
+5. Functions
+6.ES^+ features
+  -->Spread and rest operators
+  -->Promises
+  -->Async Await
+  -->Destructuring
+  -->Template Literals
+  -->Classes
+7. Import and Export (modules)
+
+--------------------------------------------------------------------------
+variable :- a container or a box for storing Data
+       -->var --can be reinitialized and redeclared
+       -->let --can be reinitialized but cannot redeclared
+       -->const --neither reinitialized nor redeclared
+-----------------------------------------------------------------------
+DataTypes: in js there are two types of DataTypes
+1.primitive 
+  --> number,string, Boolean, null, undefined,null,bigInt
+2.non primitive
+  --> Arrays,objects
+-----------------------------------------------------------------------------------
+Array can be declared and initialized in diifernt ways
+  1.Array Literals
+   -->let students= ["sai","dp", "vamsi","vinay"]
+  2. Array constructor
+    -->let students = new Array();
+  
+  Array methods mostly used in react -- map,filter and reduce
+------------------------------------------------------------------------------------
+objects can be created in four ways
+1.Object Literals
+2.Object constructor
+3.Object.create()
+4.using ES6
+-------------------------------------------------------------------------------------
+Functions- set of code to perform some sort of operations
+there are three ways of creating a Function
+1.Function declaration
+2.Function Expression
+3.Arrow Function
+--------------------------------------------------------------------------------------
+ES6-2015
+features introduced in ES6
+1.let and const
+2.Promises
+3.Arrow Function
+4.``(string Interpolation or template Literals)
+5.Spread and rest
+6.Classes
+7.Destructuring
+8.Array Methods
+9.ternary operations

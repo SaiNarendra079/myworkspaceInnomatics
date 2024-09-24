@@ -1,0 +1,63 @@
+header,
+nav,
+aside,
+main,
+section,
+footer{
+  margin: 5px;
+  border: 2px solid black;
+  font-family: 'Courier New', Courier, monospace;
+}
+header{
+  background-color: rgb(243, 166, 112);
+  position: sticky;
+  width: 100%;
+}
+nav{
+  background-color: antiquewhite;
+}
+nav ul li{
+  display: inline;
+  margin: 4px;
+  font-size: large;
+}
+.maincontainer{
+  display: flex;
+}
+form{
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  gap: 10px;
+}
+aside{
+  background-color: beige;
+}
+table,
+th,
+tr,
+td,
+tbody,thead{
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-collapse: collapse;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.griditems{
+  align-items: center;
+  border: 1px;
+  margin: 5px;
+  background-color: blueviolet;
+}
+footer ul li{
+  display: inline;
+  margin: 4px;
+  font-size: large;
+}
+footer{
+  background-color: cadetblue;
+}
+

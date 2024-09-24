@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #cardcontainer{
+      border: 1px solid black;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+    }
+    #cardcontainer >div{
+      border: 1px solid black;
+      margin: 5px;
+      padding: 5px;
+    }
+    @media (max-width:650px){
+      #cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        font-size: medium;
+      }
+    }
+    @media (max-width:550px){
+      #cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        font-size: medium;
+        width: 300px;
+      }
+    }
+    @media(max-width:400px){
+      #cardcontainer >div{
+        font-size: small;
+        background-color: aquamarine;
+      }
+    }
+    @media(max-width:330px){
+      #cardcontainer{
+        width: 200px;
+      }
+    }
+    /* .card{
+      border: 1px solid black;
+    }
+     */
+     .card_div{
+      border: 1px solid black;
+     }
+  </style>
+</head>
+<body>
+  <div id="cardcontainer">
+    
+  </div>
+  <script src="example_of_fetch.js"></script>
+</body>
+</html>

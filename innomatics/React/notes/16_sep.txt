@@ -1,0 +1,18 @@
+problem statement:
+1. Whole page reloads
+2. Nav Bar wasn't visible
+
+to remove these in react we have something called as router DOM
+
+react:
+Router DOM- it is not a part of react
+React Router Dom - it is a third party library which needs to be installed with (npm i react-router-dom)
+
+components need to be remembered in react router dom
+---React Router DOM: 
+       -->BrowserRouter: we wrap our(app) react project around the BrowserRouter
+       -->Routes
+       -->Route
+       -->Link and NavLink
+
+BrowserRouter can be written as Router 

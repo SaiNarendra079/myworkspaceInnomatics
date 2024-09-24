@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Innomatics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Innomatics</h1>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="maincontainer">
+    <aside>
+      <h1>Side Bar</h1>
+      <p>Sidebar content</p>
+    </aside>
+    <main>
+      <!--User Registration-->
+      <section>
+        <h1>User Registration Progess</h1>
+        <form class="formbox">
+          <label for="name">User Name:</label>
+          <input type="text" placeholder="Name*" id="name" minlength="6" maxlength="25" required>
+          <label for="mail">Email:</label>
+          <input type="email" placeholder="Email*" id="mail" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" minlength="8" required>
+          <label for="phn">Phone Number:</label>
+          <input type="tel" id="phn" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" >
+          <label for="proflie">Profile Image:</label>
+          <input type="file" id="proflie">
+          <label for="dob">DOB:</label>
+          <input type="date" id="dob" required>
+          <label for="slot">Slot Booking:</label>
+          <input type="time" id="slot">
+          <label for="gen">Gender:</label>
+          <input type="radio" value="Male" name="gender" id="gen">Male
+          <input type="radio" value="Female"name="gender" id="gen">Female
+          <input type="radio" value="Others"  name="gender"id="gen">Others
+          <label for="add">Address:</label>
+          <textarea placeholder="Address"></textarea>
+          <label for="course">Courses you are interested in:</label>
+          <label for="frontend">frontend</label>
+          <input type="checkbox" value="frontend" id="frontend" name="course">
+          <label for="backend">backend</label>
+          <input type="checkbox" value="Female" id="backend" name="course">
+          <label for="others">java</label>
+          <input type="checkbox" value="Others" id="others" name="course">
+          <label for="country">Country</label>
+          <select id="country">
+            <option></option>
+            <option>India</option>
+            <option>China</option>
+            <option>Australia</option>
+            <option>USA</option>
+            <option>Canada</option>
+          </select><br><br>
+          <input id="but" type="submit"  value="submit" style="font-size: 20px; align-items: center; background-color: aqua; margin-top: 30px; margin-right: 30px; margin-bottom: 30px;">
+          <input id="but" type="reset" value="reset" style="font-size: 20px; align-items: center; background-color: aqua; margin-top: 30px; margin-right: 30px; margin-bottom: 30px;">
+        </form>
+      </section>
+        <!--User Table-->
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Emailid</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sai Narendra</td>
+              <td>20</td>
+              <td>sainarendra079@gmail.com</td>
+            </tr>
+            <tr>
+              <td>vamsi</td>
+              <td>20</td>
+              <td>vamsikatta@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Rohit Vinay</td>
+              <td>20</td>
+              <td>rohitviany562@gmail.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!--ol-->
+      <section>
+        <h1>Skills required to become web developer</h1>
+        <ol>
+          <li>html</li>
+          <li>css</li>
+          <li>js</li>
+          <li>Reactjs,nodejs,express</li>
+          <li>sql</li>
+        </ol>
+      </section>
+      <!--grid-->
+      <section>
+        <div class="gridcontainer">
+          <div class="griditems">Grid1</div>
+          <div class="griditems">Grid2</div>
+          <div class="griditems">Grid3</div>
+          <div class="griditems">Grid4</div>
+          <div class="griditems">Grid5</div>
+          <div class="griditems">Grid6</div>
+        </div>
+      </section>
+    </main>
+</div>
+  <footer>
+    <h1>Footer</h1>
+    <ul>
+      <li><a href="">Help</a></li>
+      <li><a href="">contactus</a></li>
+      <li><a href="">mail</a></li>
+    </ul>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+  background-image: linear-gradient(45deg,rgb(58, 169, 203), rgb(168, 219, 230));;
+}
+.maindiv{
+  border: 1px solid black;
+  background-image: linear-gradient(90deg, white,wheat);
+}
+.maindiv h1{
+  background-image: linear-gradient(90deg, white,wheat);
+}
+.maindiv input{
+  background-image: linear-gradient(90deg, white,wheat);
+}
+.maindiv button{
+  background-image: linear-gradient(90deg, white,wheat);
+}

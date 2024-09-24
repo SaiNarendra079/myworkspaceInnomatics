@@ -1,0 +1,26 @@
+props and state
+  -->props means properties
+     -it is just a sort of data that can be passed to a component
+     -props are immutable i.e it cannot be changed
+  
+  -->state:situation of a particular application
+     -states are mutable i.e it can be changed
+     beacuse component can upaded its own state
+     -state is used to manage dynamic data of application
+     -state will be used in both class and functional components
+       --class is called as stateful component because it has already inbuilt state
+       --functional is called as stateless component, in this we need to take use of "Hooks"
+
+
+basic hooks :
+          -->useState:for use state we take two things variable and setter function
+          -->useEffect
+          -->useContext
+
+another feature of react virtual DOM
+ DOM- document object model in js
+ in react is uses virtual DOM ,every react project has its own virtual DOM
+ virtual dom --
+    -- visual representation of DOM
+    --does not have capacity to change DOM directly
+    --at every point of time, there is always two visual dom

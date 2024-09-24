@@ -1,0 +1,32 @@
+react is library for web application and mobile application
+ReactDOM- used to design web application
+ReactNative-used to design mobile application
+
+diff b/w library and framework
+     --> both are codes written by developer and kept on internet
+     -->"inversion of control" is main difference
+          frameworks is like a skeleton & you can customize (framework is controller)
+          library is like we can design as we want i.e you have liberty to create the ui of your choice in library(developer is controller)
+-------------------------------------------------------------------
+why React?
+1-flexible
+2-easy to learn
+3-has large community support
+4-component based architecture
+--------------------------------------------------------------------
+npm-node package manager
+
+two ways of creating react project
+1.tradtional way to create react
+  --> npx create-react-app projectname
+  -->npx-node package executor we use npx because it creates locally whereas npm create globally
+2.vite
+  -->npm create vite@latest
+  -->vite is used for better usability and compatibility
+----------------------------------------------------------------------
+features
+1.SPA
+2.component based architecture
+3.jsx
+4.virtual DOM
+5.unidirectional flow

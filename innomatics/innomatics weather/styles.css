@@ -1,0 +1,12 @@
+.container{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 30%;
+  height: 100px;
+  background-color: aqua;
+}
+h3{
+  text-align: center;
+}

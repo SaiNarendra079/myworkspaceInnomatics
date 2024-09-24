@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  display: flex;
+  gap: 2rem;
+  text-decoration: none;
+}
+li{
+  
+  padding: 2px;
+}

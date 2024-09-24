@@ -1,0 +1,16 @@
+/*input:focus{
+  outline: none 
+}
+div{
+  display: flex inline;
+  flex-direction: row;
+  border: 1px solid;
+  gap: 1em;
+}
+input{
+  border: none;
+  border-right: 1px solid black;
+}
+#Emailid:focus-within{
+  border: 2px solid skyblue;
+}*/

@@ -1,0 +1,27 @@
+useEffect: used to perform some side effect on the component
+  used to:
+    --> fetch data,dom manipulation,subscription of websocket
+    --> we can add and clear timers
+  useEffect Syntax:
+   -->it takes a callback function
+   -->clearup function(optional)
+   -->Dependency
+   useEffect(()=>{},[])
+
+-----------------------------------
+fetch -js inbuilt
+axios- React library
+
+
+Axios --3rd party library 
+      --npm i axios 
+      --import axios from 'axios'
+------------------------------
+js versions
+chrome-v8
+edge-chakra
+mozilla-spider monkey
+---------------------------------------------------
+we use git , vercel and netlify etc for deployments
+netlify is another version of deployment
+netlify--npm create netlify---it creates a dist folder upload that in netlify

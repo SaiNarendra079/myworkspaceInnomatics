@@ -1,0 +1,1 @@
+statics routing , nested routing , dynamic routing

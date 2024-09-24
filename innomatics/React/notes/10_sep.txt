@@ -1,0 +1,17 @@
+Conditional Rendering-
+   it is the process of displaying some content(components,jsx, elements) on the screen depending upon certain conditions
+
+in js conditional statement are if else,while,do while,switch
+four ways of applying  conditional rendering in react:
+    --if else 
+    --using element variable
+    --using ternary operator
+    --short circuit operator
+
+react fragments: these are just empty tags i.e <></>
+
+types of styling in react
+1-css libraries--tailwind,bootstrap,SCSS,SASS,Material UI
+2-inline styling
+3-external styling
+4-module styling

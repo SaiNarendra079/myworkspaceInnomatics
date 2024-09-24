@@ -1,0 +1,65 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.notification-box{
+  display: none;
+}
+.notification{
+  visibility: hidden;
+  opacity: 0;
+  min-width: 250px;
+  background-color: rgb(244, 244, 195);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  top:10px;
+  right: 30px;
+  padding: 10px;
+  transition: visbility 0.5s linear 0.5s opacity 0.5s linear;
+}
+.notification1{
+  border: 1px solid black;
+  background-color: azure;
+  margin-bottom: 20px;
+}
+.notification2{
+  border: 2px solid black;
+  background-color: aquamarine;
+}
+.notification-box:checked~ .notification{
+  visibility: visible;
+  opacity: 1;
+}
+.close{
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  cursor: pointer;
+  font-size: small;
+}
+.close1{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    cursor: pointer;
+    font-size: small;
+}
+.show{
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  animation: shows 4s 2s;
+}
+@keyframes shows {
+  from{background-color: aqua;}
+  to{background-color: antiquewhite;}
+}
